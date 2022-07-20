@@ -8,7 +8,7 @@
 
 RT-Thread 中的线程有：初始状态、就绪状态、运行状态、挂起状态、关闭状态这五种状态，所谓的线程调度，就是通过调度器和 RT-Thread 提供的一些接口函数，使得线程在这五种状态中切换。
 
-![Thread](Source\thread.png)
+![Thread](./Source/thread.png)
 
 在 RT-Thread 中，线程的调度方式有时间片轮转法和高优先级抢占法，在不同优先级线程中使用高优先级抢占法，同优先级时使用时间片轮转法。
 
@@ -117,7 +117,7 @@ MSH_CMD_EXPORT(thread_test,  thread_test to learn thread);
 
 效果如下：
 
-![com](Source\com.png)
+![com](./Source/com.png)
 
 
 
